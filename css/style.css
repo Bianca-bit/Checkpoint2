@@ -1,11 +1,5 @@
-
-
 .carousel-item {
     height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
 }
 
 .carousel-caption {
@@ -49,8 +43,8 @@
     color: #fff;
     font-size: 25px;
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: bolder;
+    letter-spacing: 5px;
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
@@ -63,10 +57,6 @@
 
 .navbar-nav {
     text-align: center;
-}
-
-.navbar-brand {
-    color: #fff;
 }
 
 .nav-link {
@@ -83,74 +73,12 @@
 
 @media only screend and (max-width:767px) {
     .navbar-nav.ml-auto{
-        background: rgba(0, 0, 0,0.05);
+        background: #fff;
     }
-    .navbar-toggler .collapse {
+    .navbar-toggler .collapse{
         padding: 1px 5px;
         font-size: 18px;
         line-height: 0.3;
         background: #fff;
     }
 }
-
-#footer {
-    padding: 3em 2em;
-  }
-  
-  #footer-top {
-    margin-bottom: 2em;
-  }
-  
-  #footer-top,
-  #footer-top i {
-    color: black;
-  }
-  
-  #social-icons {
-    text-align: right;
-  }
-  
-  #social-icons i {
-    margin-right: 1em;
-    font-size: 1.5em;
-    cursor: pointer;
-  }
-  
-  #social-icons i:hover {
-    color: #000000;
-  }
-  
-  /* FOOTER DETAILS */
-  #footer-details {
-    margin-bottom: 3em;
-  }
-  
-  #news-container,
-  #contact-container,
-  #links-container {
-    padding: 0;
-    border: 0;
-    margin-bottom: 2em;
-  }
-  
-  #footer-details h4 {
-    color: rgb(0, 0, 0);
-    margin-bottom: 1.5em;
-  }
-  
-  #news-container input {
-    border-radius: 0;
-    border: none;
-  }
-  
-  #links-container li {
-    margin-bottom: 0.5em;
-  }
-  
-  #links-container a {
-    text-decoration: none;
-  }
-  
-  #links-container a:hover {
-    color: rgb(8, 8, 8);
-  }
